@@ -12,9 +12,11 @@ td{
 img {
     width: 33%;
     height: auto;
+    transition:transform 0.25s ease;
 }
 img:hover{
     filter: brightness(50%);
+    transform:scale(1.5);
 }
 footer{
     background-color: black;
