@@ -1,14 +1,6 @@
 body{
     background-color: #eaeae8;
 }
-
-table{
-   width: 100%; 
-  border-collapse: collapse; 
-}
-td{
-    padding: 1px;
-}
 img {
     width: 33%;
     height: auto;
@@ -32,7 +24,4 @@ img:hover{
 .text{
      font-weight: bold;
     font-size: 25px;
-}
-@media (max-width:600px){
-    
 }
