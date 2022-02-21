@@ -5,25 +5,21 @@ img:hover{
     filter: brightness(50%);
 }
 .logo{
-    height: 100%;
-    width: 160px;
+    height: auto;
+    width: 25%;
     vertical-align: top;
     float: left;
     margin: 10px;  
     margin-right: 100%;
     margin-bottom: 100px;
+    margin-top: 25px;
 }
 .text{
      font-weight: bold;
     font-size: 25px;
 }
+<!--responsive-->
 img{
-  max-width: 33%;
+  max-width: 100%;
   height: auto;
-}
-img {
-    width: 100%%;
-    
-    margin: auto;    
-    display: block;
 }
