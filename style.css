@@ -1,10 +1,6 @@
 body{
     background-color: #eaeae8;
 }
-img {
-    width: 33%;
-    height: auto;
-}
 img:hover{
     filter: brightness(50%);
 }
@@ -17,11 +13,11 @@ img:hover{
     margin-right: 100%;
     margin-bottom: 100px;
 }
-.container {
-   margin:0px auto;
-   width:980px; 
-}
 .text{
      font-weight: bold;
     font-size: 25px;
+}
+img{
+  max-width: 33%;
+  height: auto;
 }
