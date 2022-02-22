@@ -4,7 +4,7 @@ body {
 	background-color: #eaeae8;
 }
 footer {
-	position: fixed;
+	position: inherit;
 	left: 0;
 	bottom: 0;
 	width: 100%;
@@ -47,5 +47,12 @@ img:hover {
 	border-top: 150px;
 	margin-right: 100%;
 	width: 60%
+}
+.footerlijst{
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
 }
 /*Einde Tekst Soorten */
