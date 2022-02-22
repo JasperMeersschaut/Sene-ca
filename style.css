@@ -1,25 +1,51 @@
-body{
-    background-color: #eaeae8;
+/*Begin Pagina delen*/
+
+body {
+	background-color: #eaeae8;
 }
-img:hover{
-    filter: brightness(50%);
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
 }
-.logo{
-    height: auto;
-    width: 25%;
-    vertical-align: top;
-    float: left;
-    margin: 10px;  
-    margin-right: 100%;
-    margin-bottom: 100px;
-    margin-top: 25px;
+/*Einde Pagina delen*/
+
+/*Begin afbeeldingen */
+
+img {
+	max-width: 100%;
+	height: auto;
 }
-.text{
-     font-weight: bold;
-    font-size: 25px;
+img:hover {
+	filter: brightness(50%);
 }
-<!--responsive-->
-img{
-  max-width: 100%;
-  height: auto;
+.logo {
+	height: auto;
+	width: 200px;
+	vertical-align: top;
+	float: left;
+	margin: 10px;
+	margin-right: 100%;
+	margin-bottom: 100px;
+	margin-top: 25px;
 }
+/*Einde afbeeldingen*/
+
+/*Begin Tekst Soorten*/
+
+.tekst {
+	margin-right: 100%;
+	width: 70%
+}
+.hoofdtekst {
+	font-weight: bold;
+	font-size: 25px;
+	border-top: 150px;
+	margin-right: 100%;
+	width: 60%
+}
+/*Einde Tekst Soorten */
