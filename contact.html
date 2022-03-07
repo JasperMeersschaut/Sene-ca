@@ -1,8 +1,10 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<meta charset="utf-8">
+
 	<title>Sene-ca</title>
 	<link href="css/contact.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -13,39 +15,58 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js">
 	</script>
 </head>
+
 <body>
 	<header>
 		<a href="index.html"><img alt="Logo" class="logo" src="img/logo-black.png"></a>
 	</header>
+
+
 	<div class="container">
 		<form action="/action_page.php">
 			<div class="form-group">
 				<label for="email">E-mail adres:</label> <input class="form-control" id="email" placeholder="Voer uw E-mail in" type="email">
+
 				<div class="invalid-feedback">
 					Gelieve dit veld in te vullen.
 				</div>
 			</div>
+
+
 			<div class="form-group">
 				<label for="uname">Naam en achternaam:</label> <input class="form-control" id="uname" name="uname" placeholder="Voer uw naam in" required="" type="text">
+
 				<div class="valid-feedback">
 					Valid.
 				</div>
+
+
 				<div class="invalid-feedback">
 					Please fill out this field.
 				</div>
-			</div><select class="form-select, selection">
+			</div>
+
+
+			<div class="mailsontvangen">
+				<p>Hoeveel mails wilt u per week ontvangen?</p>
+			</div>
+			<select class="form-select, selection">
 				<option selected>
-					Hoeveel mails wilt u per week ontvangen?
+					0
 				</option>
+
 				<option value="1">
 					1
 				</option>
+
 				<option value="2">
 					2
 				</option>
+
 				<option value="3">
 					3
 				</option>
+
 				<option value="4">
 					4
 				</option>
